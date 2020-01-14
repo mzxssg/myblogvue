@@ -13,18 +13,6 @@
                 <img :src="this.$store.state.aboutmeObj.image?this.$store.state.aboutmeObj.image:'static/img/maoto.png'" alt="" onerror="this.onerror=null;this.src= 'static/img/maoto.png'" class="aboutmeImg">
             </p>
             <p v-html="this.$store.state.aboutmeObj.brief">{{this.$store.state.aboutmeObj.brief}}</p>
-            <!-- <p>
-                欢迎来到Mango Ya！我是Aimee，是一个可爱的girl，前端程序媛，喜欢各种有趣的事物，爱好各种动手的小玩意儿
-            </p>
-            <p>
-                90后小美女😍，前端小萌新，
-            </p>
-            <p>
-                爱美食，爱动手做美食，想长胖的尽管来。
-            </p>
-            <p>
-                博客建于2017年2月9日，2018年1月23日更新到Vue
-            </p> -->
         </section>
     </div>
 </template>

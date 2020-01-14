@@ -399,9 +399,9 @@ const Typeit = (isAimee,emId) =>{
             speech：所有的speech。
          ***/
          if(isAimee!=0){
-             var world = "Aimee";
+             var world = "Martin";
          }else{
-             var world = "Qinlh";
+             var world = "Martin";
          }
         theater.describe("Luke", .9, emId);
         // conosle.log()

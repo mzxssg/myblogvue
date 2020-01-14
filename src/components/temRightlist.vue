@@ -3,9 +3,9 @@
     <div class="rightlistBox">
         <section >
             <div class="r1-head">
-                <img :src="this.$store.state.themeObj.center_smailimg?this.$store.state.themeObj.center_smailimg:'static/img/headtou02.jpg'" alt="">
+                <img :src="this.$store.state.themeObj.center_smailimg?this.$store.state.themeObj.center_smailimg:'static/img/03.jpg'" alt="">
                 <h1 v-if="this.$store.state.themeObj.user_start!=0">
-                    <span>女王</span>Aimee
+                    <span>斗帝</span>Martin
                 </h1>
             </div>
             <div class="r1-body">
